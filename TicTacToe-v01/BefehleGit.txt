@@ -8,3 +8,11 @@ git pull
 Anschließend files mittels git push hoch geladen. 
 neuen Branch erzeugen 
 git branch first
+in den neuen Branch wechseln
+git checkout
+git add *.xml
+git add *.java
+git add *.txt
+git status zeigt das neue Txt File
+git commit -m "new branch first"
+git push
