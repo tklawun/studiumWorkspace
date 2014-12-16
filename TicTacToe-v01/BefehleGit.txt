@@ -1,0 +1,10 @@
+das Repository auf der Homepage github erzeugt. 
+Anschließend git add *.xml
+git add *.java
+git add *.txt
+git commit -m "Go first commit for *.txt *.java *.xml"
+da erster Zugriff erst mal das Repository von github geladen
+git pull
+Anschließend files mittels git push hoch geladen. 
+neuen Branch erzeugen 
+git branch first
