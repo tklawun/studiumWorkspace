@@ -1,0 +1,15 @@
+<project name="testAnt" basedir="." default="run" >
+	<target name="run">
+		<echo>Hallo Thomas
+		</echo>
+	</target>
+	<target name="compile" >
+		<javac srcdir="." includeantruntime="no"/>
+	</target>
+	<target name="packaging">
+		<jar destfile="ticTacToe.jar" basedir="." includes="**/*.class" />
+	</target>
+	<target name="run jar">
+		<java classname="TicTacToe" classpath="ticTacToe.jar" fork="true" />
+	</target>
+</project>
