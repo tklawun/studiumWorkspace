@@ -16,3 +16,5 @@ git add *.txt
 git status zeigt das neue Txt File
 git commit -m "new branch first"
 git push
+Das hat erst funktioniert, nach dem ich im Repository auf der Githubseite das branch first angelegt hatte.
+
